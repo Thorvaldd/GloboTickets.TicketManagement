@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6213DD0-E105-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BAE57CA0-E105-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CE96D690-E105-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D1968200-E105-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D555FB00-E105-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2D4126F0-E106-11EB-9318-7D108CC1C28A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Application", "GloboTicket.TicketManagement.Application\GloboTicket.TicketManagement.Application.csproj", "{18189A12-A3C5-48F6-888E-2F598DF63C7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B} = {2D4126F0-E106-11EB-9318-7D108CC1C28A}
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518} = {2D4126F0-E106-11EB-9318-7D108CC1C28A}
+		{2D4126F0-E106-11EB-9318-7D108CC1C28A} = {B6213DD0-E105-11EB-9318-7D108CC1C28A}
+		{D555FB00-E105-11EB-9318-7D108CC1C28A} = {B6213DD0-E105-11EB-9318-7D108CC1C28A}
+		{D1968200-E105-11EB-9318-7D108CC1C28A} = {B6213DD0-E105-11EB-9318-7D108CC1C28A}
+		{CE96D690-E105-11EB-9318-7D108CC1C28A} = {B6213DD0-E105-11EB-9318-7D108CC1C28A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|x64.Build.0 = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Debug|x86.Build.0 = Debug|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|x64.ActiveCfg = Release|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|x64.Build.0 = Release|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|x86.ActiveCfg = Release|Any CPU
+		{16AEA6E5-C3C9-471B-9BFB-9F71322C8518}.Release|x86.Build.0 = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|x64.Build.0 = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{18189A12-A3C5-48F6-888E-2F598DF63C7B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
