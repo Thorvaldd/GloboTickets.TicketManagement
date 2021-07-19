@@ -1,6 +1,6 @@
-using System;
 using AutoMapper;
-using GloboTicket.TicketManagement.Application.Features.Events;
+using GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetails;
+using GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventsList;
 using GloboTicket.TicketManagement.Domain;
 
 namespace GloboTicket.TicketManagement.Application.Profiles
@@ -10,6 +10,7 @@ namespace GloboTicket.TicketManagement.Application.Profiles
         public MappingProfile()
         {
             CreateMap<Event, EventListVm>().ReverseMap();
+            CreateMap<Event, EventDetailVm>().ReverseMap();
         }
     }
 }
